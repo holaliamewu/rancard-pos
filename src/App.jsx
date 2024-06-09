@@ -8,7 +8,7 @@ import Order from "./pages/Order";
 import Report from "./pages/Report";
 
 export default function App() {
-  const [isAuthenticated, setIsAuthenticated] = useState(true);
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
 
   return (
     isAuthenticated ? (
