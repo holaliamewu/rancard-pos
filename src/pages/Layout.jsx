@@ -7,7 +7,7 @@ export default function Layout() {
   return (
     <div>
         <Header />
-        <div className='' >
+        <div className='flex ' >
             <Sidebar />
             <Outlet />
         </div>
