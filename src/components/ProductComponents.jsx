@@ -5,7 +5,7 @@ import { productData } from '../assets/productData'
 export default function ProductComponents() {
 
     const allProducts  = productData.map( product => (
-        <span className=' flex flex-col box-border gap-[16px] w-[300px]   ' >
+        <span className=' flex flex-col box-border gap-[16px] w-[290px]   ' >
         <img className=' h-[217px] rounded-[8px] ' src={product.img} alt='picture of product' />
         <span className='flex items-center justify-between px-[16px] ' >
           <h3 className=' text-[22px] font-[400] ' >Fufu with soup</h3>
@@ -18,6 +18,6 @@ export default function ProductComponents() {
       </span>
     ))
   return (
-    <div className='grid grid-cols-3 gap-[16px]' > { allProducts }</div>
+    <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[36px] place-items-center place-content-start' > { allProducts }</div>
   )
 }
