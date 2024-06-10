@@ -5,9 +5,9 @@ import Sidebar from '../components/Sidebar'
 
 export default function Layout() {
   return (
-    <div>
+    <div className='w-full max-w-[100vw] min-h-screen relative '>
         <Header />
-        <div className='flex ' >
+        <div className='flex relative' >
             <Sidebar />
             <Outlet />
         </div>
