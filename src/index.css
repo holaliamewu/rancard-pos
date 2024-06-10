@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Carena';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('/src/assets/fonts/carena.regular.otf') format('openType');
+  }
+  
+  @font-face {
+    font-family: 'Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('/src/assets/fonts/hk-grotesk.regular.ttf') format('trueType');
+  }
+
+
+  @font-face {
+    font-family: 'UncutMedium';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('/src/assets/fonts/uncut-sans.regular.otf') format('openType');
+  }
+  
+  @font-face {
+    font-family: 'UncutSemibold';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('/src/assets/fonts/uncut-sans.regular.otf') format('openType');
+  }
+
+}

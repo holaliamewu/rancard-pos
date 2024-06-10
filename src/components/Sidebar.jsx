@@ -5,7 +5,7 @@ import { Home, ShoppingBag, ShoppingCart, BarChartBig } from 'lucide-react'
 export default function Sidebar() {
 
   return (
-    <div className='hidden lg:flex flex-col items-center  bg-white max-w-[300px] h-full px-[5%] sticky left-0 top-[104px] '>
+    <div className='hidden lg:flex flex-col items-center  bg-white max-w-[300px] h-full px-[5%] sticky left-0 top-[104px] font-["UncutMedium"] '>
         <div className='flex flex-col gap-[16px] items-center bg-transparent  w-[230px]  bg-white' >
             <NavLink 
             to="/" 
