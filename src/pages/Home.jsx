@@ -6,7 +6,7 @@ export default function Home() {
 
   const [ showAddProduct, setShowAddProduct ] = useState(false);
   return (
-    <div className='flex flex-col w-full min-h-screen pt-[74px] px-[24px] bg-gray-100 font-["Grotesk"] '>
+    <div className='flex flex-col w-full min-h-screen pt-[74px] px-[24px] bg-[#f5f5f5] font-["Grotesk"] '>
 
     <span className='flex w-full  justify-between' >
       <h1 className='text-[40px] font-[700] ' >Product</h1>
